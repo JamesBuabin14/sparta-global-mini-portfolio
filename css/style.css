@@ -1,0 +1,68 @@
+html {
+  text-align: center; /*centers everything on the page*/
+}
+
+
+.right-list {
+  /*float: right;*/
+  display: inline-block; /*Allows text left or right if needed*/
+  text-align: right;
+
+}
+
+.arsenal-banner{
+  width: 100%; /*images is spread across the page*/
+  height: 120px; /*height is set of the picture */
+  background-image: url('../img/arsenal-banner.jpg');
+
+
+}
+
+.round-image{
+  border-radius: 50%;
+}
+
+.container {
+  max-width:960px;
+  margin:auto;
+}
+
+.right-list a {
+  text-decoration: none;
+}
+
+.right-list a:hover{
+  color: red;
+}
+
+.links ul {
+  float: right;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000099;
+   color: white;
+   text-align: center;
+}
+
+@@media only screen and (max-width:780px){
+
+
+  .right-list {
+    /*float: right;*/
+    margin: auto;
+
+  }
+
+  .container2{
+    margin: auto;
+  }
+}
